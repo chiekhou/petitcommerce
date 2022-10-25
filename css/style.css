@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+  font-family:  'Balsamiq Sans', cursive;
+  overflow-x: hidden;
+  max-height: 80%;
+}
+
+#lien .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+
+    padding-left: 1px !important;
+    padding-right: 1rem !important;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  
+  .navbar .nav-item .active {
+    border-left: #444 3px solid;
+  }
+
+  .gammes .active {
+    background-color: red;
+  }
+  .carousel-item {
+    height: 450px;
+  }
+  
+  .carousel-image-1 {
+    background: url('../img/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: round;
+   
+  }
+  
+  .carousel-image-2 {
+    background: url('../img/femme-shop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: round;
+  }
+  
+  .carousel-image-3 {
+    background: url('../img/adidas-accueil.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: round;
+  }
+  
+
+  #page-header {
+    height: 300px;
+    background: url('../img/image-de-vetement_4.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    background-repeat: round;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+  }
+
+  .dark-overlay {
+    position: relative;
+    top: 60px;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+
+  
+  }
+ 
+
+.b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(76, 76, 76, 0);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.main-footer{
+  margin-top: 250;
+    width: 100%;
+}
+
+.main-footer p,h6{
+    color: white;
+   
+    
+}
+
+.main-footer #reseaux{
+    background-color:rgb(255, 255, 255) ;
+}
+
+/*--------------------------------------------------------------
+# Our Team
+--------------------------------------------------------------*/
+.team .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+  padding: 30px;
+  border-radius: 4px;
+  background: white;
+}
+
+.team .member .pic {
+  overflow: hidden;
+  width: 140px;
+  border-radius: 4px;
+}
+
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member:hover img {
+  transform: scale(1.1);
+}
+
+.team .member .member-info {
+  padding-left: 30px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #556270;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #dee2e6;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background: #8795a4;
+}
+
+.team .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #77B5FE;
+}
+
+.team .member .social a + a {
+  margin-left: 8px;
+}
+
+.body-j{
+  background: linear-gradient(to right, #c04848, #480048);
+  height: 100vh;
+}
+
+.menu {
+  line-height: 1.4;
+  font-family: "Space Mono", monospace;
+  background: #1d1f20;
+  margin-left: 30px;
+  padding: 25px 35px;
+  width: 300px;
+  top: calc(50vh - 247px);
+  left: calc(50vw - 150px);
+  border-radius: 16px;
+  box-shadow: 0 0 60px -15px black;
+  transform: scale(0) rotate(360deg);
+  transition: all 0.75s;
+  font-size: 18px
+}
+
+.menu.menu_active {
+  transform: scale(1) rotate(0deg);
+}
+
+.menu > ol > li {
+  margin: 20px 0;
+  color: green;
+}
+
+.menu > ol > li:first-of-type {
+  color: yellow;
+}
+
+.menu > ol > li > ol {
+  margin: 10px 0 0 20px;
+  border-left: 1px solid gray;
+  color: purple;
+}
+
+.menu > ol > li > ol > li {
+  margin: 7px 0;
+  padding-left: 20px;
+}
+
+.menu a:hover {
+  color: orange
+}
+
+.body-j h3 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 60px;
+  color: #cfd8dc;
+  top: calc(50vh - 40px);
+  left: calc(50vw - 126px);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.body-j h3:hover {
+  border-bottom: 6px dotted #cfd8dc;
+  padding-bottom: 10px;
+  top: calc(50vh - 50px);
+}
+
+.menu p {
+  font-family: "Roboto Mono", monospace;
+  float: right;
+  cursor: pointer;
+  font-size: 16px;
+  color: #cfd8dc;
+  transition: all 0.2s;
+}
+
+.menu p:hover {
+  border-bottom: 2px dotted #cfd8dc;
+  padding-bottom: 5px
+}

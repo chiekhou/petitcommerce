@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+
+        <title>Candidature Spontanée</title>
+        
+    </head>
+    <body class="bg-info">
+
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+            <div class="container">
+    
+              <form class="d-flex">
+          <input class="form-control me-2 " type="search" placeholder="Recherche" aria-label="Search">
+          
+          <button class="btn btn-primary" type="submit">
+              <img src="img/magnifying-glass.png" width="30" height="30"></button>
+        </form> 
+                <ul id="lien" class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <img src="img/language.png" width="20" height="20">Langues</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Français</a>
+                            <a href="#" class="dropdown-item">Anglais</a>
+                            <a href="#" class="dropdown-item">Espagnole</a>
+                        </div>
+                    </li>
+                  <li class="nav-item">
+                    <a href="commandes.html" class="nav-link"><img src="img/box.png" width="20" height="20"> Commandes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="compte.html" class="nav-link"><img src="img/user.png" width="20" height="20"> Compte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="panier.html" class="nav-link"><img src="img/add-to-cart.png" width="20" height="20">Panier</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>  
+         <nav class="navbar navbar-expand-xl navbar-dark bg-dark ">
+                    <div class="container">
+    
+                      <a href="index.html" class="navbar-brand"><img src="img/petit-commerce-logo.png" width="50" height="50"></a>
+                      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+    
+                      <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Accueil</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="nos-produits.html" class="nav-link">Nos Produits</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="avis.html" class="nav-link">Avis</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="categories-homme.html" class="nav-link">Homme</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="categories-femme.html" class="nav-link">Femme</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="actualites.html" class="nav-link">Actualités</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">La Boutique</a>
+                            <div class="dropdown-menu">
+                                <a href="qui-sommes-nous.html" class="dropdown-item">Qui-Sommes-Nous</a>
+                                <a href="contact.html" class="dropdown-item">Contact</a>
+                                <a href="recrutement.html" class="dropdown-item">Recrutement</a>
+                                <a href="evenements.html" class="dropdown-item">Evenements</a>
+                                <a href="presse.html" class="dropdown-item">Presse</a>
+                            </div>
+                        </li>
+                        </ul>
+                      </div>
+    
+                    </div>
+                  </nav> 
+                </header>
+
+  <!-- FORMULAIRE CONTACT INFO -->
+  <section class="py-5 bg-info" id=contact>
+    
+    <div class="row ">
+      
+      <div class="col-md-8 px-5 mx-auto">
+        <div class="card bg-dark p-4">
+          <div class="card-body">
+            <h3 class="text-white text-center">Candidature Spontanée</h3>
+          <p class="lead text-center text-light">Remplissez les informations ci-dessous pour l'étude de votre dossier.</p>
+            <hr>
+            <form method="post" action="contact" >
+            <div class="row">
+              <div class="col-md-6">
+              
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nom">
+              <br />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Prénom">
+              <br />
+      </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Entreprise">
+              <br />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="form-label text-white" for="customFile">Joingner votre CV :</label>
+                  <input type="file" class="form-control" placeholder="CV">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                  <label class="form-label text-white" for="customFile">Joingner votre lettre de motivation:</label>
+                  <input type="file" class="form-control">
+                </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message" ></textarea>
+                  </div>
+                  </div>
+              
+                  <div class="col-md-12">
+                   <div class="form-group">
+                    <input type="submit" value="Envoi" class="btn btn-primary btn-block btn-lg">
+                     <br>
+                 </div>
+                </div>
+          </div>
+        </form>
+               
+       </div>
+</div>
+      </div>
+    </div>
+    
+    
+   </section>
+ 
+   <footer class="main-footer bg-dark">
+    <div class="container-fluid" id="reseaux">
+
+      <!-- Grid row-->
+      <div class="row  d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+         
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+        <p>Inscrivez-vous à notre newsletter pour plus d'offres ..</p>
+        <form class="form-inline ">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Nom">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+            <button class="btn btn-primary btn-lg ">Envoyer</button>
+          </form>
+
+      </div>
+
+        <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <h6 class="text-uppercase font-weight-bold">Contactez-Nous </h6>
+      
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+
+        <p>
+            <img src="img/contact-form (1).png" width="20" height="20"> 
+            <a class="text-white" href="contact.html">Boutique/Contact</a>
+            
+        </p>
+        <p><i class="fas fa-home mr-2"></i>9 rue Basly, 92230 Gennevilliers</p>
+        
+        <p><i class="fas fa-envelope mr-1"></i>
+            <a class="text-white" href="mailto:email@gmail.com">petit-commerce@service.com</a></p>
+        
+        <p> <i class="fas fa-phone mr-2"></i>
+            <a class="text-white" href="tel:0183848483">Tel : 01 04 64 09 03 </a></p>
+
+      </div>
+      
+      
+       <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Links -->
+        
+        <h6 class="text-uppercase font-weight-bold">Suivez notre actualités  </h6>
+      
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 210px;">
+        <p>
+             <!-- Facebook -->
+          <a href="https://fr-fr.facebook.com/">
+             <img src="img/icons8-facebook-48.png" alt="" class="img-fluid">
+             </a>
+            
+          <!--Instagram-->
+           <a href="https://www.instagram.com/">
+                <img src="img/icons8-instagram-48.png" alt="" class="img-fluid">
+            </a>
+
+            <a href="#" OnClick="javascript:window.print()">
+                <img src="img/printer.png" alt="" class="img-fluid" width="50" height="50">
+            </a>
+        </p>
+        <p>
+            <a class="text-white" href="plan-site.html">
+                
+                <h6 class="text-uppercase font-weight-bold">
+                    Plan du site</h6>
+                </a>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+        </p>
+        <p>
+          <a class="text-white" href="actualites.html">
+              
+              <h6 class="text-uppercase font-weight-bold">
+                  Actualités</h6>
+              </a>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+      </p>
+      </div>
+      
+  
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+<!-- Footer Links -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-white py-3">© 2021 Le Petit Commerce <a class="text-white" href="CGV.pdf" target=_blank >Mentions légales-Politique de confidentialité</a></div>
+  
+</footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+      <link rel="stylesheet" href="css/style.css">
+
+        <title>Page Accueil</title>
+        
+    </head>
+    <body class="bg-light">
+
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+            <div class="container">
+    
+              <form class="d-flex">
+          <input class="form-control me-2 " type="search" placeholder="Recherche" aria-label="Search">
+          
+          <button class="btn btn-primary" type="submit">
+              <img src="img/magnifying-glass.png" width="30" height="30"></button>
+        </form> 
+                <ul id="lien" class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <img src="img/language.png" width="20" height="20">Langues</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Français</a>
+                            <a href="#" class="dropdown-item">Anglais</a>
+                            <a href="#" class="dropdown-item">Espagnole</a>
+                        </div>
+                    </li>
+                  <li class="nav-item">
+                    <a href="commandes.html" class="nav-link"><img src="img/box.png" width="20" height="20" target=_blank> Commandes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="compte.html" class="nav-link"><img src="img/user.png" width="20" height="20" target=_blank> Compte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="panier.html" class="nav-link"><img src="img/add-to-cart.png" width="20" height="20" target=_blank>Panier</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>  
+         <nav class="navbar navbar-expand-xl navbar-dark bg-dark ">
+                    <div class="container">
+    
+                      <a href="index.html" class="navbar-brand"><img src="img/petit-commerce-logo.png" width="50" height="50"></a>
+                      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+    
+                      <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a href="index.html" class="nav-link" target=_blank>Accueil</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="nos-produits.html" class="nav-link" target=_blank>Nos Produits</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="avis.html" class="nav-link" target=_blank>Avis</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="categories-homme.html" class="nav-link">Homme</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="categories-femme.html" class="nav-link" target=_blank>Femme</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="actualites.html" class="nav-link" target=_blank>Actualités</a>
+                          </li>
+                          <li class="nav-item dropdown" target=_blank>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">La Boutique</a>
+                            <div class="dropdown-menu">
+                                <a href="qui-sommes-nous.html" class="dropdown-item">Qui-Sommes-Nous</a>
+                                <a href="contact.html" class="dropdown-item">Contact</a>
+                                <a href="recrutement.html" class="dropdown-item">Recrutement</a>
+                                <a href="evenements.html" class="dropdown-item">Evenements</a>
+                                <a href="presse.html" class="dropdown-item">Presse</a>
+                            </div>
+                        </li>
+                        </ul>
+                      </div>
+    
+                    </div>
+                  </nav> 
+                </header>
+
+
+            <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-4">
+              <h1 class="display-4">Découvrez vos marques préférées chez nous.</h1>
+              <p class="lead">Suivez ces marques pour les voir en premier.</p>
+              <a href="nos-produits.html" class="btn btn-primary btn-lg">Découvrir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 >Le Petit Commerce est installé tout prés de chez vous .</h1>
+              <p class="lead">Madames , Monsieur venez découvrir nos produits de qualité vendu à prix raisonnable .</p>
+              <a href="nos-produits.html" class="btn btn-primary btn-lg">Découvrir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="text-dark">Disponible sur notre boutique en ligne</h1>
+              <p class="lead text-dark">Il est temps que ce classique devienne plus éco-responsable. Et donc véritablement intemporel.
+                 Sans toucher à son design iconique, nous avons réinventé la Stan Smith avec une tige Primegreen recyclée qui montre notre volonté de respecter l'environnement.</p>
+              <a href="nos-produits.html" class="btn btn-success btn-lg">Découvrir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+   <!-- TESTIMONIALS -->
+   <section id="testimonials" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center">Vos avis compte pour nous</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Excellent j'ai reçu mes vêtements dans le délai prévu et ils sont de bonne qualité.
+                </p>
+                <footer class="blockquote-footer">Cheikk Cheikh
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Je recommande fortement, les prix sont abordable .
+                </p>
+                <footer class="blockquote-footer">Will Smith
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Je connaissais pas le Petit Commerce on me l'a recommandé et je ne regrettes vraiment pas.
+                </p>
+                <footer class="blockquote-footer">Meghan Wood
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center text-uppercase">Nouveautés du mois</h1>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <figure>
+            <img src="img/modele-femme-accueil3.jpg"  alt="" class="img-fluid">
+            <figcaption class="text-dark font-weight-bold">Gants rouge, Chapeaux Noir , Manteaux Noir.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <figure>
+            <img src="img/modele-homme-accueil.jpg" alt="" class="img-fluid">
+            <figcaption class="text-dark font-weight-bold">Veste en cuir.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <figure>
+            <img src="img/modele-accueil-femme4.jpg" alt="" class="img-fluid">
+            <figcaption class="text-dark font-weight-bold">Pull en dentelle.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- INFO A PROPOS -->
+  <section id="info" class="py-3 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h1 class="text-light">Petit Commerce</h1>
+          <p class="text-light">Nous faisons tout notre possible pour vous permettre d'être accueilli dans de bonne conditions . 
+            Le magasin est entretenue par nos employés en respectant les barriéres sanitaires.</p>
+          <a href="qui-sommes-nous.html" class="btn btn-outline-primary btn-lg">A propos de nous</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/mike-info.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- POINT DE VENTE -->
+    <section id="info" class="py-3">
+      <div class="container-fluid py-2">
+        <div class="row">
+
+          <div class="col-mb ml-3">
+            <h1 class="text-uppercase"><img src="img/map.png" width="40" height="40"> Nos points de vente</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.8267922364207!2d2.290420215006913!3d48.918692179293494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f5d448c2693%3A0xff3c31b415a318e0!2s9%20Rue%20Basly%2C%2092230%20Gennevilliers!5e0!3m2!1sfr!2sfr!4v1617868491906!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+          </div>
+
+          <div class="col-md-5 text-center py-2 align-self-center">
+            <h3>Petit Commerce</h3>
+              <address class="text-dark font-weight-bold ">
+              <h6 class="text-dark">Votre magasin Petit Commerce à proximité du Qwartz</h6>
+              Adresse: 9 Rue Basly 92230 GENNEVILLIERS.<br>
+              Tel: 01 47 93 53 11<br>
+              Aujourd'hui : Fermé .<br>
+            </address> 
+            <a href="qui-sommes-nous.html" class="btn btn-outline-dark btn-lg">A propos de nous</a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Livraison gratuite à partir de 60 €</h1>
+          <p>Satisfait ou remboursé . Besoin d'aide ? Veuillez nous contactez au service client ? 01 02 03 04 05(appel gratuit)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+       
+      
+        <footer class="main-footer bg-dark">
+          <div class="container-fluid" id="reseaux">
+      
+            <!-- Grid row-->
+            <div class="row  d-flex align-items-center">
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                
+              </div>
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+               
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row-->
+      
+          </div>
+      
+      
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3 dark-grey-text">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+              <p>Inscrivez-vous à notre newsletter pour plus d'offres ..</p>
+              <form class="form-inline ">
+                  <input type="text" class="form-control mb-2 mr-2" placeholder="Nom">
+                  <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+                  <button class="btn btn-primary btn-lg ">Envoyer</button>
+                </form>
+      
+            </div>
+
+              <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <h6 class="text-uppercase font-weight-bold">Contactez-Nous </h6>
+            
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+
+              <p>
+                  <img src="img/contact-form (1).png" width="20" height="20"> 
+                  <a class="text-white" href="contact.html">Boutique/Contact</a>
+                  
+              </p>
+              <p><i class="fas fa-home mr-2"></i>9 rue Basly, 92230 Gennevilliers</p>
+              
+              <p><i class="fas fa-envelope mr-1"></i>
+                  <a class="text-white" href="mailto:email@gmail.com">petit-commerce@service.com</a></p>
+              
+              <p> <i class="fas fa-phone mr-2"></i>
+                  <a class="text-white" href="tel:0183848483">Tel : 01 04 64 09 03 </a></p>
+      
+            </div>
+            
+            
+             <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+      
+              <!-- Links -->
+              
+              <h6 class="text-uppercase font-weight-bold">Suivez notre actualités  </h6>
+            
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 210px;">
+              <p>
+                   <!-- Facebook -->
+                <a href="https://fr-fr.facebook.com/">
+                   <img src="img/icons8-facebook-48.png" alt="" class="img-fluid">
+                   </a>
+                  
+                <!--Instagram-->
+                 <a href="https://www.instagram.com/">
+                      <img src="img/icons8-instagram-48.png" alt="" class="img-fluid">
+                  </a>
+
+                  <a href="#" OnClick="javascript:window.print()">
+                      <img src="img/printer.png" alt="" class="img-fluid" width="50" height="50">
+                  </a>
+              </p>
+              <p>
+                  <a class="text-white" href="plan-site.html">
+                      
+                      <h6 class="text-uppercase font-weight-bold">
+                          Plan du site</h6>
+                      </a>
+                  <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+              </p>
+              <p>
+                <a class="text-white" href="actualites.html">
+                    
+                    <h6 class="text-uppercase font-weight-bold">
+                        Actualités</h6>
+                    </a>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 140px;">
+            </p>
+            </div>
+            
+        
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+      <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-white py-3">© 2021 Le Petit Commerce <a class="text-white" href="CGV.pdf" target=_blank >Mentions légales-Politique de confidentialité</a></div>
+        
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+</body>
+</html>
